@@ -1,6 +1,6 @@
 package com.alkemy.ong.controller;
 
-import com.alkemy.ong.model.request.CategoryDto;
+import com.alkemy.ong.dto.CategoryDto;
 import com.alkemy.ong.model.entity.Category;
 import com.alkemy.ong.service.CategoryServiceImpl;
 import com.alkemy.ong.service.abstraction.IDeleteCategoryService;

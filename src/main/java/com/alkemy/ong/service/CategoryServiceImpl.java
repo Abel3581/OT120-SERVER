@@ -1,11 +1,10 @@
 package com.alkemy.ong.service;
 
+import com.alkemy.ong.dto.CategoryDto;
 import com.alkemy.ong.mapper.CategoryMapper;
 import com.alkemy.ong.model.entity.Category;
-import com.alkemy.ong.model.request.CategoryDto;
 import com.alkemy.ong.repository.ICategoryRepository;
 import com.alkemy.ong.service.abstraction.IDeleteCategoryService;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
